@@ -3,7 +3,8 @@ import Inicio from "./componentes/Inicio/Inicio"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { NextUIProvider } from "@nextui-org/react"
 import Footer from "./componentes/Footer/Footer"
-import Profesionales from "./componentes/Profesionales/Profesionales"
+import Productos from "./componentes/Productos/Productos"
+import RegistroUsuarioForm from "./componentes/SingUp/SingUp"
 
 
 
@@ -16,7 +17,8 @@ function App() {
           <Navbar />
             <Routes>
               <Route path="/" element={<Inicio />} />
-              <Route path="/professionals" element={<Profesionales />} />
+              <Route path="/productos" element={<Productos />} />
+              <Route path="/SingUp" element={<RegistroUsuarioForm/>}/>
             </Routes>
           <Footer />
         </BrowserRouter>

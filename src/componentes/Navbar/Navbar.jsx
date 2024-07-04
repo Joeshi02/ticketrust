@@ -8,17 +8,17 @@ const Links = () => {
       <a href="/#section1" className="mr-4">
         <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Cómo funciona</button>
       </a>
-      <a href="/#section2" className="mr-4">
-        <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Opiniones</button>
-      </a>
       <a href="/#section3" className="mr-4">
         <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Preguntas frecuentes</button>
       </a>
       <a href="/#section4" className="mr-4">
         <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Contáctanos</button>
       </a>
-      <Link to='/professionals' className="mr-4">
-        <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Profesionales</button>
+      <Link to='/productos' className="mr-4">
+        <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Productos</button>
+      </Link>
+      <Link to='/SingUp' className="mr-4">
+        <button className="py-2 px-4 text-lg md:font-title md:text-primary md:hover:text-light-green duration-500">Registrate</button>
       </Link>
     </>
   );

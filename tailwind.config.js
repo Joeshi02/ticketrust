@@ -11,11 +11,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#194113',
-        'light': '#DCF4EE',
-        'skyblue': '#338AF3',
-        'light-green': '#327d26',
-        'ultra-light': '#EDF9F6'
+        'primary': '#194113',       // Color principal
+        'light': '#327d26',         // Color verde claro
+        'medium': '#265f1c',        // Color verde medio
+        'dark': '#0d2409',          // Color verde oscuro
+        'almost-black': '#000600',  // Color casi negro
+        'ultra-light': '#DCF4EE',   // Este color no estaba en la paleta proporcionada
+        'skyblue': '#338AF3'        // Este color no estaba en la paleta proporcionada
       },
       fontFamily: {
         title: ['Gelasio']

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer>
-            <div className='h-12 bg-light text-skyblue hover:text-primary text-base md:text-xl lg:text-2xl flex justify-center items-center'>
+            <div className='h-12  text-skyblue hover:text-primary text-base md:text-xl lg:text-2xl flex justify-center items-center'>
                 <a className='flex items-center w-full h-full justify-center' href="#top"><ChevronUp size={28}/> Subir</a>
             </div>
             <div className="flex flex-col justify-items-center h-auto text-white justify-around text-base py-9 px-10 font-light">
@@ -27,28 +27,23 @@ const Footer = () => {
                     </div>
                     <div className="w-full md:w-fit flex flex-col md:justify-self-center gap-4 mb-3">
                         <p className='font-title text-xl'>Contacto</p>
-                        <p>Consulta online: +54 9 2615 27 3747</p>
                         <div className="flex md:gap-2 gap-8">
-                            <p>Consulta presencial:</p>
+                            <p>Numero de contacto:</p>
                             <div>
-                                <p>380 9380</p>
-                                <p className='whitespace-nowrap	'>0261 424 8828</p>
-                                <p className='whitespace-nowrap	'>0261 532 5156</p>
+                                <p className='whitespace-nowrap	'>+569123456789</p>
                             </div>
                         </div>
-                        <a href="mailto:ramsaludmental.info@gmail.com">ramsaludmental.info@gmail.com</a>
+                        <a href="mailto:ticketrust@gmail.com">ticketrust@gmail.com</a>
                     </div>
                     <div className="w-full md:w-fit flex flex-col gap-4 md:justify-self-center mb-3">
                         <p className='font-title text-xl'>Nuestras redes</p>
                         <div className='flex gap-4 justify-around' >
-                            <img src={linkedinIcon} />
                             <img src={facebookIcon} />
                             <img src={twitterIcon} />
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col md:items-center justify-end box-border pt-11 md:text-center">
-                    <p className="mb-4">Buenos Aires 52- Godoy Cruz, 5501 Mendoza, Argentina.</p>
                     <p>© 2024. Todos los derechos reservados </p>
                 </div>
             </div>
